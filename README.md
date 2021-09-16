@@ -1,6 +1,7 @@
 # Curriculum Vitae
 
-This is the LaTeX source for my academic CV. Heavily inspired by [leouieda/cv](https://github.com/leouieda/cv).
+This is the LaTeX source for my academic CV. 
+Heavily inspired by [leouieda/cv](https://github.com/leouieda/cv).
 
 ## Building
 
