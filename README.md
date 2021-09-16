@@ -6,7 +6,7 @@ Heavily inspired by [leouieda/cv](https://github.com/leouieda/cv).
 
 ## Building
 
-The PDF is built from LaTeX using [Tectonic](https://tectonic-typesetting.github.io). I like Tectonic because it can be install via [conda](https://github.com/conda-forge/tectonic-feedstock) and it only downloads the packages being used – avoiding the need to install a full LaTeX system (which can be huge).
+The PDF is built from LaTeX using [Tectonic](https://tectonic-typesetting.github.io). I like Tectonic because it can be installed via [conda](https://github.com/conda-forge/tectonic-feedstock) and it only downloads the LaTeX packages being used – avoiding the need to install a full LaTeX system (which can be huge).
 
 * `make` builds the PDF
 * `make show` opens the PDF
