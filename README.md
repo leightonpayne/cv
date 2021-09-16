@@ -1,6 +1,6 @@
 # Curriculum Vitae
 
-<a href="https://github.com/leightonpayne/cv/" alt="Last update"><img src="https://img.shields.io/github/last-commit/leightonpayne/cv?label=last%20update" /></a> 
+<img alt="Last Update" src="https://img.shields.io/github/last-commit/leightonpayne/cv?label=last%20update"> <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/leightonpayne/cv/pdf-compile">
 
 This is the LaTeX source for my academic CV.
 
