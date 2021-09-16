@@ -1,15 +1,13 @@
 # Curriculum Vitae
 
-[![compile-pdf](https://github.com/leouieda/cv/workflows/compile-pdf/badge.svg?event=push)](https://github.com/leouieda/cv/actions)
-
-This is the LaTeX source for my academic CV. Heavily inspired by (i.e. mostly stolen from) [@leouieda](https://github.com/leouieda/cv).
+This is the LaTeX source for my academic CV. Heavily inspired by [leouieda/cv](https://github.com/leouieda/cv).
 
 **Download** the latest compiled PDF:
 [leighton_payne_cv.pdf](https://leightonpayne.com/leighton_payne_cv.pdf)
 
 ## Building
 
-The PDF is built from LaTeX using[Tectonic](https://tectonic-typesetting.github.io), which can be installed via [conda](https://github.com/conda-forge/tectonic-feedstock).
+The PDF is built from LaTeX using [Tectonic](https://tectonic-typesetting.github.io). I like Tectonic because it can be install via [conda](https://github.com/conda-forge/tectonic-feedstock) and it only downloads the packages being used – avoiding the need to install a full LaTeX system (which can be huge).
 
 * `make` builds the PDF
 * `make show` opens the PDF on the default viewer
@@ -18,7 +16,7 @@ The PDF is built from LaTeX using[Tectonic](https://tectonic-typesetting.github.
 ## Deploying
 
 A PDF is compiled automatically by GitHub Actions with every commit to the
-*main* branch and uploaded to the server hosting my website.
+*master* branch and uploaded to the server hosting my [website](https://leightonpayne.com) where it can be [downloaded](https://leightonpayne.com/leighton_payne_cv.pdf).
 
 ## License
 
