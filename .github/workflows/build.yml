@@ -1,4 +1,4 @@
-name: pdf-compile
+name: build-pdf
 
 on:
   push:
