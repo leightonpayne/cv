@@ -16,7 +16,4 @@ The PDF is built from LaTeX using [Tectonic](https://tectonic-typesetting.github
 
 ## Deploying
 
-A PDF is compiled automatically using GitHub Actions when a new commit gets pushed. The compiled PDF is then uploaded to the server hosting my [website](https://leightonpayne.com) where it can be [downloaded](https://leightonpayne.com/leighton_payne_cv.pdf).
-
-## License
-
+A PDF is compiled automatically using GitHub Actions when a new commit gets pushed to the *master* branch. The compiled PDF is then uploaded to the server hosting my [website](https://leightonpayne.com) where it can be [downloaded](https://leightonpayne.com/leighton_payne_cv.pdf).
