@@ -1,10 +1,8 @@
 # Curriculum Vitae
 
-This is the LaTeX source for my academic CV. 
+This is the LaTeX source for my academic CV. <a href="https://github.com/leightonpayne/cv/" alt="Last update"><img src="https://img.shields.io/github/last-commit/leightonpayne/cv?label=last%20update" /></a>
 
 Heavily inspired by [leouieda/cv](https://github.com/leouieda/cv).
-
-<a href="https://github.com/leightonpayne/cv/" alt="Last update"><img src="https://img.shields.io/github/last-commit/leightonpayne/cv?label=last%20update" /></a>
 
 ## Building
 
