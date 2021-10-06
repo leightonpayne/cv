@@ -53,5 +53,6 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           passphrase: ${{ secrets.SSH_KEY_PASSPHRASE }}
           rm: false
+          overwrite: true
           source: "leighton_payne_cv.pdf"
           target: "${{ secrets.REMOTE_DIR }}"
