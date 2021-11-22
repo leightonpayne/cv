@@ -5,22 +5,8 @@ TEX = $(wildcard *.tex)
 # Output files
 PDF = $(patsubst %.tex,%.pdf,$(TEX))
 
-# Set commands for opening the generated PDF
-UNAME := $(shell uname)
-ifeq ($(UNAME), Linux)
-PDFVIEWER = xdg-open
-endif
-ifeq ($(UNAME), Darwin)
-PDFVIEWER = open
-endif
-
 # Generate all PDFs
 all: $(PDF)
-
-# Open the PDFs in the specified viewer program
-show: $(PDF)
-	@ # Redirect stdout and stderr to /dev/null for silent execution
-	@ (${PDFVIEWER} $< > /dev/null 2>&1 & )
 
 # Generate a PDF from a Tex file
 %.pdf: %.tex
